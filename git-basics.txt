@@ -1,1 +1,60 @@
-Git Basice and its commands in a list:
+Git is use for 
+1 History Management
+2 SCM so you can work in team
+3 It initialize the folder with .git folder so it can track history
+4 github is the code hosting place where you can store your code
+5 .git folder is the one who track the history which provides by git when dp git init
+6 remember commit means history in the project
+
+Steps:
+
+1 git status to check if the folder is initiated
+2 if not than git init
+3 make some changes into folder
+4 git add . (all files) or git add filename
+5 git commit -m "any masgs" and it will add to master branch
+6 git restore --staged filename it will unstage the changes of the file or all
+7 git log to check the history of code base
+8 git reset hashId. but it will do all the reset above it remember
+
+Heirachy:
+How to delete and revert changes
+once you stage something and commit it. if you want to revert this commit
+
+you need the command git reset id
+
+then you will get the things unstage
+
+for getting the file back you need to do git checkout filename
+and if you want to content back you need to stash it first then pop or clear it
+
+and if you want to unstage something you can do 
+
+git restore --staged filename or git restore --stages .
+
+you can also restore your working directoy
+
+by using git checkout --.
+but for that you need to git reset HEAD or git reset id od it i will go to unstage
+
+
+GitHub:
+
+Now you want to connect you local folder to the some code hosting
+
+you need to copythe link from the code hosting and use command
+
+git remote(iss ka matlab urls) add origin(it is for url yani tum kaya name rakh rahay hoo yahan url to jo tum add karnay lagay hoo aur wo url will e connected to .git in local folder) https://github.com/fazi1live/Learning-Git.git
+
+by convention origin is the name for your personal account and code cloud hosting  are in origin or you can have other name
+
+once you connect the url
+you need to check it by using git remote -v
+
+now you need to add your chaned to the code hosting so for that
+
+<<<<<<< Updated upstream
+git push origin(which url) master (kis brach main )Git Basice and its commands in a list:
+=======
+git push origin(which url) master (kis brach main )
+>>>>>>> Stashed changes
