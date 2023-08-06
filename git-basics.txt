@@ -1,3 +1,5 @@
+Hello World
+
 Git is use for 
 1 History Management
 2 SCM so you can work in team
@@ -36,6 +38,11 @@ you can also restore your working directoy
 
 by using git checkout --.
 but for that you need to git reset HEAD or git reset id od it i will go to unstage
+
+Stashing (for backend of staging)
+1 git stash
+2 git stash pop (resolve if confliciting)
+3 git stash clear
 
 
 GitHub:
