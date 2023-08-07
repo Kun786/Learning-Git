@@ -78,3 +78,5 @@ git checkout means head to point to new branch or to get deleted file back
 
 ===== git branch
 it will check all the branches
+
+===== note for every branch there will be a only one Pull request and every updated will go to that pull request branch
