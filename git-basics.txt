@@ -71,3 +71,6 @@ What is head?
 Answer: Head is the place where you all commits are addind and it is the pointer
 which is pointin to a branch. which means that you code is going into head and eventually
 to this particular branch
+
+====== git checkout
+git checkout means head to point to new branch or to get deleted file back
