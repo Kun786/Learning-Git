@@ -85,5 +85,5 @@ but if you merge one Pull request and you made changes to that branch it will sa
 so jaab pull request merge kar loo tu hemeshae new branch banaoo ussi branch main na push karo
 pull request k bad wo cheeze khatam
 
-==== git rebase:  git rebase --i hasid will help you to merge commits using squash and pick
+
 
