@@ -60,12 +60,6 @@ you need to check it by using git remote -v
 
 now you need to add your chaned to the code hosting so for that
 
-<<<<<<< Updated upstream
-git push origin(which url) master (kis brach main )Git Basice and its commands in a list:
-=======
-git push origin(which url) master (kis brach main )
->>>>>>> Stashed changes
-
 
 What is head?
 Answer: Head is the place where you all commits are addind and it is the pointer
@@ -86,4 +80,6 @@ so jaab pull request merge kar loo tu hemeshae new branch banaoo ussi branch mai
 pull request k bad wo cheeze khatam
 
 
+==== git rebase:  git rebase --i hasid will help you to merge commits using squash and pick mango bhai jaan
+=======
 
