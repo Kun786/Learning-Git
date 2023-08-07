@@ -80,3 +80,7 @@ git checkout means head to point to new branch or to get deleted file back
 it will check all the branches
 
 ===== note for every branch there will be a only one Pull request and every updated will go to that pull request branch
+but if you merge one Pull request and you made changes to that branch it will say you main is behind and then you need to create another pull request
+
+so jaab pull request merge kar loo tu hemeshae new branch banaoo ussi branch main na push karo
+pull request k bad wo cheeze khatam
