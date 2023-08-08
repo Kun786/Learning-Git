@@ -10,6 +10,29 @@ Git is use for
 
 Steps:
 
+====How to configure your git =====
+git config --global user.name ""
+git config --global user.email ""
+git config --global --unset user.name --unset user.email
+
+Here you can change the flag --local or --system
+
+to check the config you can use git config --system user.name or user.email
+
+=====How to handle multiple user from git and commit it local/global=======
+hierarchy
+.git/config (local repository) inline (precedence 1)
+$home/.gitconfig (global computer logged in user) logged in (precedence 2)
+/usr/local/git/etc/gitconfig (all the user and all the repositor) all users (precedence 3)
+
+
+====Config Order =====
+1 --system
+2 --global
+3 --local
+
+Evey lower can have the power to override the above one like inline css
+
 1 git status to check if the folder is initiated
 2 if not than git init
 3 make some changes into folder
