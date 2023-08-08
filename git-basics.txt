@@ -18,7 +18,7 @@ Steps:
 6 git restore --staged filename it will unstage the changes of the file or all
 7 git log to check the history of code base
 8 git reset hashId. but it will do all the reset above it remember
-
+9 git coonfig user.name or user.email or --get-all user.name or --get-all user.email
 Heirachy:
 How to delete and revert changes
 once you stage something and commit it. if you want to revert this commit
@@ -80,6 +80,6 @@ so jaab pull request merge kar loo tu hemeshae new branch banaoo ussi branch mai
 pull request k bad wo cheeze khatam
 
 
-==== git rebase:  git rebase --i hasid will help you to merge commits using squash and pick mango bhai jaan
+==== git rebase:  git rebase --i hasid will help you to merge commits using squash and pick
 =======
 
