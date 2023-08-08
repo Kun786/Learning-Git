@@ -19,6 +19,10 @@ Steps:
 7 git log to check the history of code base
 8 git reset hashId. but it will do all the reset above it remember
 9 git coonfig user.name or user.email or --get-all user.name or --get-all user.email
+10 git fetch --all --prune  (it will get all the branches, PR, deleted PR and branches and changes made into files which is exactly equally to sync wheel up or down and then we doo git status and then 
+git pull origin main
+
+
 Heirachy:
 How to delete and revert changes
 once you stage something and commit it. if you want to revert this commit
