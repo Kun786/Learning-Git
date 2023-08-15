@@ -117,4 +117,4 @@ pull request k bad wo cheeze khatam
 ==== git rebase:  git rebase --i hasid will help you to merge commits using squash and pick
 =======
 
-Notes completed
+Notes completed Good Luck
